@@ -1,4 +1,4 @@
-# Korner Lamp Backend
+# Betel Affaire Backend
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/korner-lamp/korner-lamp-backend.git
+git remote add origin https://gitlab.com/betel-affaire/betel-affaire-backend.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/korner-lamp/korner-lamp-backend/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/betel-affaire/betel-affaire-backend/-/settings/integrations)
 
 ## Collaborate with your team
 
