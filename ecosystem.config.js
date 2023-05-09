@@ -28,7 +28,7 @@ module.exports = {
       watch: false,
       watch_ignore: true,
       env_stage: {
-        PORT: 3300,
+        PORT: 9000,
         NODE_ENV: 'stage'
       }
     }

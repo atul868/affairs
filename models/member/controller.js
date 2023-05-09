@@ -23,6 +23,7 @@ const generateReferralCode = () => {
 class MemberController {
   // SignUp
   async signUp(req, res, next) {
+    console.log(req.body);
     let member;
     let referredUser;
     let points;
@@ -1029,6 +1030,7 @@ class MemberController {
   */
   async customerSignUp(req, res, next) {
     try {
+      console.log(req.body);
       const { email, firstName, lastName, password, confirmPassword } = req.body;
       const member = await memberFacade.findOne
         ({ email });
